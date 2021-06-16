@@ -50,7 +50,7 @@ HTTP 200 OK
 	},
 }
 ```
-Sometimes [verification](./reference.html#verification) will be required. this important field to look for is the `error: "verification required"`. 
+Sometimes [verification](./reference.html#verification) will be required. The important field to look for is `error: "verification required"`. 
 Example of a verification required response:
 ```{1,15}
 HTTP 400 Bad Request
@@ -72,7 +72,7 @@ HTTP 400 Bad Request
 ```
 
 ## Verification
-In order to create a [Verification](./reference.html#verification), first send a request with the body of the request set as an [Verification creatable](./reference.html#verification).
+In order to create a [Verification](./reference.html#verification), first send a request with the body of the request set as a [Verification creatable](./reference.html#verification).
 
 ``` {1}
 POST /verification
@@ -114,7 +114,7 @@ HTTP 200 OK
 
 ## Capture
 
-In order to create a [Capture](./reference.html#capture), first send a request with the body of the request set as an [Capture creatable](./reference.html#capture).
+In order to create a [Capture](./reference.html#capture), first send a request with the body of the request set as a [Capture creatable](./reference.html#capture).
 
 ``` {1}
 POST authorization/:id/capture
@@ -141,7 +141,7 @@ HTTP 200 OK
 ```
 
 ## Refund
-In order to create a [Refund](./reference.html#refund), first send a request with the body of the request set as an [Refund creatable](./reference.html#refund).
+In order to create a [Refund](./reference.html#refund), first send a request with the body of the request set as a [Refund creatable](./reference.html#refund).
 
 ``` {1}
 POST authorization/:id/refund
@@ -166,7 +166,7 @@ HTTP 200 OK
   "status": "approved"
 }
 ```
-## Cancelization
+## Cancelation
 
 
 Only non-captured authorizations can be canceled.
