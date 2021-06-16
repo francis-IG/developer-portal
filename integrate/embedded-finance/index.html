@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Embedded finance | Intergiro developer portal</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/developer-portal/assets/img/logo_black.svg">
+    <meta name="description" content="API documentation">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/developer-portal/assets/css/0.styles.7247fb28.css" as="style"><link rel="preload" href="/developer-portal/assets/js/app.f14456a7.js" as="script"><link rel="preload" href="/developer-portal/assets/js/2.0ce2fc06.js" as="script"><link rel="preload" href="/developer-portal/assets/js/19.992ed82d.js" as="script"><link rel="prefetch" href="/developer-portal/assets/js/10.65d8cd1f.js"><link rel="prefetch" href="/developer-portal/assets/js/11.a4e226df.js"><link rel="prefetch" href="/developer-portal/assets/js/12.6f30cc50.js"><link rel="prefetch" href="/developer-portal/assets/js/13.38d476bd.js"><link rel="prefetch" href="/developer-portal/assets/js/14.fe8803b7.js"><link rel="prefetch" href="/developer-portal/assets/js/15.11a6727f.js"><link rel="prefetch" href="/developer-portal/assets/js/16.91a2ad64.js"><link rel="prefetch" href="/developer-portal/assets/js/17.63a64b76.js"><link rel="prefetch" href="/developer-portal/assets/js/18.182f7ea6.js"><link rel="prefetch" href="/developer-portal/assets/js/20.562d4252.js"><link rel="prefetch" href="/developer-portal/assets/js/21.848f91df.js"><link rel="prefetch" href="/developer-portal/assets/js/22.a3ed6ce5.js"><link rel="prefetch" href="/developer-portal/assets/js/23.02107b52.js"><link rel="prefetch" href="/developer-portal/assets/js/24.39da70c3.js"><link rel="prefetch" href="/developer-portal/assets/js/25.2f6dbbb8.js"><link rel="prefetch" href="/developer-portal/assets/js/26.18e9790b.js"><link rel="prefetch" href="/developer-portal/assets/js/27.8956075c.js"><link rel="prefetch" href="/developer-portal/assets/js/3.d0fee483.js"><link rel="prefetch" href="/developer-portal/assets/js/4.6f5f101f.js"><link rel="prefetch" href="/developer-portal/assets/js/5.5762e8f0.js"><link rel="prefetch" href="/developer-portal/assets/js/6.a6edba8b.js"><link rel="prefetch" href="/developer-portal/assets/js/7.1e247444.js"><link rel="prefetch" href="/developer-portal/assets/js/8.0357b7ee.js"><link rel="prefetch" href="/developer-portal/assets/js/9.891571d2.js">
+    <link rel="stylesheet" href="/developer-portal/assets/css/0.styles.7247fb28.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/developer-portal/" class="home-link router-link-active"><img src="/developer-portal/assets/img/logo_black.svg" alt="Intergiro developer portal" class="logo"> <span class="site-name can-hide">Intergiro developer portal</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Integrate Menu" class="dropdown-title"><span class="title">Integrate</span> <span class="arrow down"></span></button> <button type="button" aria-label="Integrate Menu" class="mobile-dropdown-title"><span class="title">Integrate</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/getting-started/" class="nav-link">
+  Getting started
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/onboarding/" class="nav-link">
+  Onboarding
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/card-programmes/" class="nav-link">
+  Card programmes
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/embedded-finance/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Embedded finance
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/acquiring/" class="nav-link">
+  Acquiring
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/merchant/" class="nav-link">
+  Merchant
+</a></li><li class="dropdown-item"><!----> <a href="https://b2b.intergiro.com/v3/docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  API reference
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="/developer-portal/direct/" class="nav-link">
+  Business banking
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Integrate Menu" class="dropdown-title"><span class="title">Integrate</span> <span class="arrow down"></span></button> <button type="button" aria-label="Integrate Menu" class="mobile-dropdown-title"><span class="title">Integrate</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/getting-started/" class="nav-link">
+  Getting started
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/onboarding/" class="nav-link">
+  Onboarding
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/card-programmes/" class="nav-link">
+  Card programmes
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/embedded-finance/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Embedded finance
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/acquiring/" class="nav-link">
+  Acquiring
+</a></li><li class="dropdown-item"><!----> <a href="/developer-portal/integrate/merchant/" class="nav-link">
+  Merchant
+</a></li><li class="dropdown-item"><!----> <a href="https://b2b.intergiro.com/v3/docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  API reference
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="/developer-portal/direct/" class="nav-link">
+  Business banking
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Getting started</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/developer-portal/integrate/getting-started/introduction.html" class="sidebar-link">Introduction</a></li><li><a href="/developer-portal/integrate/getting-started/environments.html" class="sidebar-link">Environments</a></li><li><a href="/developer-portal/integrate/getting-started/authentication.html" class="sidebar-link">Authentication</a></li><li><a href="/developer-portal/integrate/versioning.html" class="sidebar-link">Versioning</a></li><li><a href="/developer-portal/integrate/simulation.html" class="sidebar-link">Simulation</a></li><li><a href="/developer-portal/integrate/getting-started/sca.html" class="sidebar-link">Strong Customer Authentication</a></li></ul></section></li><li><a href="/developer-portal/integrate/onboarding/" class="sidebar-link">Onboarding</a></li><li><a href="/developer-portal/integrate/embedded-finance/" aria-current="page" class="active sidebar-link">Embedded finance</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/developer-portal/integrate/embedded-finance/#accounts" class="sidebar-link">Accounts</a></li><li class="sidebar-sub-header"><a href="/developer-portal/integrate/embedded-finance/#payments" class="sidebar-link">Payments</a></li></ul></li><li><a href="/developer-portal/integrate/card-programmes/" class="sidebar-link">Card programmes</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Acquiring</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/developer-portal/integrate/acquiring/introduction.html" class="sidebar-link">Introduction</a></li><li><a href="/developer-portal/integrate/acquiring/api.html" class="sidebar-link">API</a></li><li><a href="/developer-portal/integrate/acquiring/reference.html" class="sidebar-link">Reference</a></li><li><a href="/developer-portal/integrate/acquiring/rules.html" class="sidebar-link">Merchant Rules</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Merchant</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/developer-portal/integrate/merchant/account-page.html" class="sidebar-link">Account Page</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="embedded-finance"><a href="#embedded-finance" class="header-anchor">#</a> Embedded finance</h1> <img src="/developer-portal/assets/img/embedded-splash.jpg" alt="Business banking"> <h2 id="accounts"><a href="#accounts" class="header-anchor">#</a> Accounts</h2> <p>Accounts are fundamental and serve as a basis for other value-add services that we offer.</p> <h3 id="create-a-new-current-account"><a href="#create-a-new-current-account" class="header-anchor">#</a> Create a new current account</h3> <p>Example create account request:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br></div><pre class="language-text"><code>POST /v3/accounts
+
+Host: b2b.intergiro.com
+Content-Type: application/json
+Authorization: Bearer &lt;access_token&gt;
+
+{
+  &quot;individual_id&quot;: &quot;bd4af0ff-0a72-4e09-b247-c6d8c2391496&quot;
+}
+</code></pre></div><p>Response:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br></div><pre class="language-text"><code>HTTP 200 OK
+
+{
+  &quot;id&quot;: &quot;8942eaf9-80b3-4060-a0b7-e03c35ca12f4&quot;,
+  &quot;name&quot;: &quot;EUR account&quot;,
+  &quot;currency&quot;: &quot;EUR&quot;,
+  &quot;balance&quot;: 0,
+  &quot;created_at&quot;: &quot;2021-02-08T14:09:15.000Z&quot;
+}
+</code></pre></div><h3 id="fund-account"><a href="#fund-account" class="header-anchor">#</a> Fund account</h3> <p>Wiring money into the account requires bank account details like bank code and account number.</p> <p>These can be easily accessed by calling <code>GET /v3/accounts/:id/bank_details</code>:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-text"><code>POST /v3/accounts/8942eaf9-80b3-4060-a0b7-e03c35ca12f4/bank_details
+
+Host: b2b.intergiro.com
+Content-Type: application/json
+Authorization: Bearer &lt;access_token&gt;
+</code></pre></div><p>Response:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-text"><code>HTTP 200 OK
+
+{
+  &quot;payment_rail&quot;: &quot;sepa&quot;,
+  &quot;details&quot;: {
+    &quot;iban&quot;: &quot;SE0097700000000000000001&quot;,
+    &quot;bic&quot;: &quot;FTCSSESSXXX&quot;
+  },
+  beneficiary: {
+    &quot;street1&quot;: &quot;Regeringsgatan 59&quot;,
+    &quot;city&quot;: &quot;Stockholm&quot;,
+    &quot;country_code&quot;: &quot;SE&quot;,
+    &quot;post_code&quot;: &quot;111 56&quot;
+  }
+}
+</code></pre></div><h2 id="payments"><a href="#payments" class="header-anchor">#</a> Payments</h2> <p>There are two ways to transfer money:</p> <ul><li>move money between individual's own accounts</li> <li>pay to somebody else's account using account ID or IBAN</li></ul> <h3 id="make-a-transfer"><a href="#make-a-transfer" class="header-anchor">#</a> Make a transfer</h3> <p>Internal transfers allow to instantly move funds between same-currency accounts <strong>belonging to the same individual</strong>. This can serve as a good way to fund someone's dedicated card account with the funds from their another account.</p> <p>Example move funds request:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-text"><code>POST /v3/transactions/move
+
+Host: b2b.intergiro.com
+Content-Type: application/json
+Authorization: Bearer &lt;access_token&gt;
+
+{
+  &quot;request_id&quot;: &quot;9b68d2fb-8ec1-44c4-b6d0-23afbe2f6a1c&quot;,
+  &quot;source_account_id&quot;: &quot;95b31a55-7fba-47f6-b452-c6f2e7c53bde&quot;,
+  &quot;target_account_id&quot;: &quot;b2714527-9812-490b-a3e9-c70f9cd9663c&quot;,
+  &quot;amount&quot;: 12000,
+  &quot;reference&quot;: &quot;Move funds&quot;
+}
+</code></pre></div><p>Response:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-text"><code>HTTP 200 OK
+
+{
+  &quot;id&quot;: &quot;27e0e678-4f04-4ae4-85d9-a5bc91be5472&quot;,
+  &quot;type&quot;: &quot;bank-transfer&quot;,
+  &quot;amount&quot;: 12000,
+  &quot;currency&quot;: &quot;EUR&quot;,
+  &quot;status&quot;: &quot;pending&quot;,
+  &quot;account_id&quot;: &quot;95b31a55-7fba-47f6-b452-c6f2e7c53bde&quot;,
+  &quot;reference&quot;: &quot;Move funds&quot;,
+  &quot;counterparty&quot;: {
+    &quot;name&quot;: &quot;Sigmund Fleud&quot;,
+    &quot;account_id&quot;: &quot;b2714527-9812-490b-a3e9-c70f9cd9663c&quot;,
+    &quot;account_details&quot;: {
+      &quot;type&quot;: &quot;sepa&quot;,
+      &quot;iban&quot;: &quot;SE0097700000000000000002&quot;
+    }
+  },
+  &quot;created_at&quot;: &quot;2021-05-11T09:55:17.000Z&quot;
+}
+</code></pre></div><h3 id="external-bank-payment"><a href="#external-bank-payment" class="header-anchor">#</a> External bank payment</h3> <p>There are two main ways to make a payment to another account:</p> <ul><li>using Intergiro account ID</li> <li>via bank details</li></ul> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>Making payments online requires individual's <a href="/integrate/getting-started/sca">Strong Customer Authentication</a>.</p></div> <h4 id="make-payment-using-counterparty-account-id"><a href="#make-payment-using-counterparty-account-id" class="header-anchor">#</a> Make payment using counterparty account ID</h4> <p>This is the best way to move funds to somebody else's Intergiro account.</p> <p>Example make payment via account ID request:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-text"><code>POST /v3/transactions/pay
+
+Host: b2b.intergiro.com
+Content-Type: application/json
+Authorization: Bearer &lt;access_token&gt;
+
+{
+  &quot;request_id&quot;: &quot;9b68d2fb-8ec1-44c4-b6d0-23afbe2f6a1c&quot;,
+  &quot;account_id&quot;: &quot;95b31a55-7fba-47f6-b452-c6f2e7c53bde&quot;,
+  &quot;counterparty&quot;: {
+    &quot;name&quot;: &quot;Kraken LTD&quot;,
+    &quot;account_id&quot;: &quot;220ce017-b261-4126-8bd9-addc8eb5b666&quot;
+  },
+  &quot;amount&quot;: 12000,
+  &quot;reference&quot;: &quot;Invoice payment 1301&quot;
+}
+</code></pre></div><p>Response:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-text"><code>HTTP 200 OK
+
+{
+  &quot;id&quot;: &quot;27e0e678-4f04-4ae4-85d9-a5bc91be5472&quot;,
+  &quot;type&quot;: &quot;bank-transfer&quot;,
+  &quot;amount&quot;: 12000,
+  &quot;currency&quot;: &quot;EUR&quot;,
+  &quot;status&quot;: &quot;pending&quot;,
+  &quot;account_id&quot;: &quot;95b31a55-7fba-47f6-b452-c6f2e7c53bde&quot;,
+  &quot;reference&quot;: &quot;Invoice payment 1301&quot;,
+  &quot;counterparty&quot;: {
+    &quot;name&quot;: &quot;Kraken LTD&quot;,
+    &quot;account_id&quot;: &quot;220ce017-b261-4126-8bd9-addc8eb5b666&quot;,
+    &quot;account_details&quot;: {
+      &quot;type&quot;: &quot;sepa&quot;,
+      &quot;iban&quot;: &quot;SE0097700000000000000002&quot;
+    }
+  },
+  &quot;created_at&quot;: &quot;2021-05-11T09:55:17.000Z&quot;
+}
+</code></pre></div><h4 id="make-payment-using-account-bank-details"><a href="#make-payment-using-account-bank-details" class="header-anchor">#</a> Make payment using account bank details</h4> <p>Example SEPA payment request:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br></div><pre class="language-text"><code>POST /v3/transactions/pay
+
+Host: b2b.intergiro.com
+Content-Type: application/json
+Authorization: Bearer &lt;access_token&gt;
+
+{
+  &quot;request_id&quot;: &quot;9b68d2fb-8ec1-44c4-b6d0-23afbe2f6a1c&quot;,
+  &quot;account_id&quot;: &quot;95b31a55-7fba-47f6-b452-c6f2e7c53bde&quot;,
+  &quot;counterparty&quot;: {
+    &quot;name&quot;: &quot;Kraken LTD&quot;,
+    &quot;account&quot;: {
+      &quot;iban&quot;: &quot;DE75512108001245126199&quot;,
+      &quot;bic&quot;: &quot;SOGEDEFF&quot;
+    }
+  },
+  &quot;amount&quot;: 12000,
+  &quot;reference&quot;: &quot;Invoice payment 1301&quot;
+}
+</code></pre></div><p>Response:</p> <div class="language- extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-text"><code>HTTP 412 Precondition Failed
+
+{
+  &quot;consent&quot;: {
+    &quot;id&quot;: &quot;e1dd9cd7-1650-42b3-8496-a970fb40ed3f&quot;,
+    &quot;status&quot;: &quot;pending&quot;
+    &quot;scope&quot;: [
+      &quot;make_payment&quot;
+    ],
+    &quot;expires_at&quot;: &quot;2021-05-11T09:55:17.000Z&quot;,
+  }
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/developer-portal/integrate/onboarding/" class="prev">
+        Onboarding
+      </a></span> <span class="next"><a href="/developer-portal/integrate/card-programmes/">
+        Card programmes
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/developer-portal/assets/js/app.f14456a7.js" defer></script><script src="/developer-portal/assets/js/2.0ce2fc06.js" defer></script><script src="/developer-portal/assets/js/19.992ed82d.js" defer></script>
+  </body>
+</html>
